@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/06f66d3348.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a id="image" href="image"
+          ><img src="images/logo1.png" alt="image"
+        /></a>
+
+        <div class="navlinks" id="navo">
+          <!-- <i class="fa fa-times"onclick="hidemenu()"></i>  -->
+
+          <i
+            class="fa fa-window-close"
+            aria-hidden="true"
+            onclick="hidemenu()"
+          ></i>
+
+          <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Our Certificate and online programs for 2021</h1>
+    </section>
+
+
+    <!--blog page content section-->
+
+    <section class="blogcontent">
+        <div class="row">
+            <div class="blogleft">
+                <img src="./images/certificate.jpg" alt="certificate">
+                <h2>our certificate</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae suscipit repellat, dolores alias in corporis aut ullam modi, expedita, sed itaque sint distinctio tempore dolorum impedit rem molestiae porro eum at. Ipsa, fugit quia unde facere cum quaerat debitis accusantium.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consequuntur fuga quaerat voluptatum modi voluptate cum repudiandae at officia? Suscipit, natus! Temporibus, placeat repellat nam distinctio quisquam architecto similique quas!</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste illum, officia laboriosam nemo sunt ut minus recusandae porro cum doloribus officiis fugit eum tempore nam culpa eaque sint repudiandae ab quaerat, inventore ipsum quibusdam? Mollitia esse similique consequatur totam quos.</p>
+                <div class="comment">
+                    <h3>Leave A Comment</h3>
+                    <form action="" class="form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="Email" placeholder="Enter Email">
+                        <textarea rows="10" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="btn redbtn">Post Comment</button>
+                    </form>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="blogright">
+                <h3>post categories</h3>
+                <div>
+                    <span> business analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span> data science</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>machine learning</span>
+                    <span>241</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>51</span>
+                </div>
+                <div>
+                    <span>software enginearing</span>
+                    <span>11</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- fotter -->
+
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas deserunt
+        suscipit animi!
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i>by easy tutorial</p>
+    </section>
+
+    <script>
+      let navoo = document.getElementById("navo");
+
+      function showmenu() {
+        navo.style.right = "0";
+      }
+      function hidemenu() {
+        navo.style.right = "-200";
+      }
+    </script>
+  </body>
+</html>

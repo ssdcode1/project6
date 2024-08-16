@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/06f66d3348.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a id="image" href="image"
+          ><img src="images/logo1.png" alt="image"
+        /></a>
+
+        <div class="navlinks" id="navo">
+          <!-- <i class="fa fa-times"onclick="hidemenu()"></i>  -->
+
+          <i
+            class="fa fa-window-close"
+            aria-hidden="true"
+            onclick="hidemenu()"
+          ></i>
+
+          <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Ours Courses</h1>
+    </section>
+
+<!--courses we offer section-->
+
+<section class="course">
+
+    <h1>course we offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus vero adipisci molestiae omnis modi exercitationem accusamus numquam? Magni minus saepe voluptatibus sed odit eius quaerat, incidunt minima facilis placeat expedita, ex nesciunt delectus odio vitae dignissimos ratione perspiciatis voluptatum soluta, ad eligendi optio. Itaque quisquam minus corporis provident, iure in.</p>
+
+    <div class="row">
+      <div class="coursecol">
+        <h3>intermidiate</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque possimus necessitatibus molestias! Est, non! Odit perspiciatis atque natus voluptates pariatur!</p>
+      </div>
+
+      <div class="coursecol">
+        <h3>degree</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque possimus necessitatibus molestias! Est, non! Odit perspiciatis atque natus voluptates pariatur!</p>
+      </div>
+
+      <div class="coursecol">
+        <h3>post graduation</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque possimus necessitatibus molestias! Est, non! Odit perspiciatis atque natus voluptates pariatur!</p>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+
+  <!--facilities section-->
+
+
+  <section class="facilities">
+    <h1>our facilities</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, quaerat. Ea autem officiis voluptates illum facere impedit odit nulla hic.</p>
+
+    <div class="row">
+      <div class="facilitiescol">
+        <img src="./images/library.jpg" alt="image">
+        <h3>world class library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus!</p>
+      </div>
+
+      <div class="facilitiescol">
+        <img src="./images/sports.jpg" alt="image">
+        <h3 id="sports">world class sports complex</h3>
+        <p id="sports1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus!</p>
+      </div>
+
+      <div class="facilitiescol">
+        <img src="./images/caffeteria.jpg" alt="image" id="img">
+        <h3>world class caffeteria</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus!</p>
+      </div>
+    </div>
+
+  </section>
+
+
+    <!-- fotter -->
+
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas deserunt
+        suscipit animi!
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i>by easy tutorial</p>
+    </section>
+
+    <script>
+      let navoo = document.getElementById("navo");
+
+      function showmenu() {
+        navo.style.right = "0";
+      }
+      function hidemenu() {
+        navo.style.right = "-200";
+      }
+    </script>
+  </body>
+</html>

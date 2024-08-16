@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>university website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/06f66d3348.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a id="image" href="image"><img src="images/logo1.png" alt="image" /></a>
+
+        <div class="navlinks " id="navo" >
+          <!-- <i class="fa fa-times"onclick="hidemenu()"></i>  -->
+          
+          <i class="fa fa-window-close" aria-hidden="true" onclick="hidemenu()"></i>
+
+
+
+          <ul>
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+
+      </nav>
+
+
+<h1>About Us</h1>
+    </section>
+
+    <!-- about us section -->
+
+
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutcol">
+
+                <h1>we wre the largest university in the world</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque libero nostrum quibusdam est alias fuga? Quas optio facilis qui numquam omnis nisi iure, nulla soluta necessitatibus voluptate tempore veritatis. Ad?</p>
+                <a href="" class="btn redbtn" 
+                 >EXPLORE NOW</a>
+            </div>
+            <div class="aboutcol">
+
+                <img src="./images/meeting1.jpg" alt="">
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- fotter -->
+
+
+    <section class="footer">
+      <h4>about us</h4>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas deserunt suscipit animi!</p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+
+        
+      </div>
+      <p>made with <i class="fa fa-heart-o"></i>by easy tutorial</p>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  let navoo = document.getElementById("navo");
+
+  function showmenu(){
+    navo.style.right = "0";
+
+  }
+  function hidemenu(){
+    navo.style.right = "-200";
+
+  }
+
+
+</script>
+
+  </body>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="FAQ"
+  agent-id="bf5ea4d8-bc33-447a-aff8-316f30e357eb"
+  language-code="en"
+></df-messenger>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="ssdcode"
+    agent-id="b53ae6ef-8f32-4a90-9355-41a47a697a38"
+    language-code="en"
+  ></df-messenger>
+
+
+</html>
